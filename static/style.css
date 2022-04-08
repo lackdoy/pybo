@@ -1,0 +1,14 @@
+/*
+textarea {
+    width:100%;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+}
+*/
+
+.comment {
+    border-top:dotted 1px #ddd;
+    font-size: 0.7em;
+}
