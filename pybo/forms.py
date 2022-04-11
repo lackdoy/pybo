@@ -1,6 +1,6 @@
 from cProfile import label
 from dataclasses import field
-from msilib.schema import Class
+#from msilib.schema import Class
 from tkinter import Widget
 from django import forms
 from pybo.models import Question, Answer, Comment
