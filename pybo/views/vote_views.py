@@ -5,7 +5,7 @@ from django.shortcuts import get_object_or_404, redirect
 
 from ..models import Question, Answer
 
-@login_required
+@login_required(login_url='common:login')
 def vote_question(request, question_id):
     """
     pybo 질문 추천 등록
@@ -17,7 +17,7 @@ def vote_question(request, question_id):
         question.voter.add(request.user)
     return redirect('pybo:detail', question_id=question.id)
 
-@login_required
+@login_required(login_url='common:login')
 def vote_answer(request, answer_id):
     """
     pybo 답변 추천 등록
