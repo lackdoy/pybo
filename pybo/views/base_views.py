@@ -1,10 +1,14 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q
+import logging
 
 from ..models import Question
 
+logger = logging.getLogger('pybo')
+
 def index(request):
+    logger.info("INFO level print")
     """
     pybo 목록 출력
     """
