@@ -1,0 +1,55 @@
+2022-04-20 16:01:57,120 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devembiome/projects/bio_platform/pybo/views/base_views.py", line 8, in index
+    3/0
+ZeroDivisionError: division by zero
+2022-04-20 16:02:31,229 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devembiome/projects/bio_platform/pybo/views/base_views.py", line 8, in index
+    """
+ZeroDivisionError: division by zero
+2022-04-20 16:09:30,277 [INFO] pybo: INFO level print
+2022-04-20 16:09:31,571 [INFO] pybo: INFO level print
+2022-04-20 16:09:32,108 [INFO] pybo: INFO level print
+2022-04-20 16:09:32,264 [INFO] pybo: INFO level print
+2022-04-20 16:09:32,439 [INFO] pybo: INFO level print
+2022-04-20 16:09:32,609 [INFO] pybo: INFO level print
+2022-04-20 16:11:36,709 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:11:36,718 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:34,583 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:34,621 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:35,103 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:35,111 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:35,460 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:35,467 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:35,644 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:35,651 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:35,822 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:35,860 [WARNING] django.request: Bad Request: /
+2022-04-20 16:12:35,988 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:12:36,002 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:09,199 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:09,206 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:10,613 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:10,620 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:11,100 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:11,107 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:11,282 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:11,289 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:11,452 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:11,459 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:11,627 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:11,634 [WARNING] django.request: Bad Request: /
+2022-04-20 16:14:11,812 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'testbbiome.tk'. You may need to add 'testbbiome.tk' to ALLOWED_HOSTS.
+2022-04-20 16:14:11,818 [WARNING] django.request: Bad Request: /
+2022-04-20 16:15:01,753 [INFO] pybo: INFO level print
+2022-04-20 16:16:07,906 [INFO] pybo: INFO level print
+2022-04-20 16:16:09,590 [INFO] pybo: INFO level print
