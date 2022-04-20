@@ -1,0 +1,18 @@
+2022-04-20 16:01:57,120 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devembiome/projects/bio_platform/pybo/views/base_views.py", line 8, in index
+    3/0
+ZeroDivisionError: division by zero
+2022-04-20 16:02:31,229 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devembiome/venvs/bio_platform/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devembiome/projects/bio_platform/pybo/views/base_views.py", line 8, in index
+    """
+ZeroDivisionError: division by zero
